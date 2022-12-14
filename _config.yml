@@ -28,7 +28,7 @@ timezone: Asia/Jakarta
 
 strict_front_matter: true
 
-permalink: /:categories/:title
+permalink: none
 
 twitter_username: jekyllrb
 github_username:  jekyll
