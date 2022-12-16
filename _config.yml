@@ -43,7 +43,7 @@ defaults:
   home:
     heading: "Official Blog of Rian,"
     subheading: "a computer lover."
-    banner: "Your image url"
+    banner: "assets/home/home-banner-die-shot.jpg" # this isn't used, overriden with banner.image
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -52,13 +52,29 @@ header_pages:
   - about.markdown
   - README.md
 
+# Banner default settings
+# These banner settings are for global banner default, but you can also
+# config it by the front matter for one specific post
+banner:
+  # video: null             # Video banner source
+  # loop: true              # Video loop
+  # volume: 0               # Video volume (100% is 1.0)
+  # start_at: 0             # Video start time
+  image: "assets/home/home-banner-die-shot.jpg"             # Image banner source
+  opacity: 0.3            # Banner opacity (100% is 1.0)
+  # background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+  height: "60vh"         # Banner default height
+  # min_height: "200px"        # Banner minimum height
+  heading_style: "font-weight: bold;"     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+  # subheading_style: null  # Custom subheading style (e.g. color: gold)
+
 # You can choose a theme color
 # Default theme colors as below:
-# coolblack: #090a0b
-spacegrey: #353535
+coolblack: #090a0b
+# spacegrey: #353535
 # snowwhite: #ffffff
 
-theme_color: spacegrey
+theme_color: coolblack
 #
 # Custom color as below:
 # theme_color: "#882250"
