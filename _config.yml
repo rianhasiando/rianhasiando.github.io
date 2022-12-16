@@ -52,6 +52,29 @@ header_pages:
   - about.markdown
   - README.md
 
+# You can choose a theme color
+# Default theme colors as below:
+# coolblack: #090a0b
+spacegrey: #353535
+# snowwhite: #ffffff
+
+theme_color: spacegrey
+#
+# Custom color as below:
+# theme_color: "#882250"
+
+# You can choose a brand color
+# Default brand colors as below:
+# orangered: #ff5100
+# greatgold: #f2cb05
+greenblue: #389092
+#
+brand_color: greenblue
+#
+# Custom color as below:
+# brand_color: "#1a8e42"
+
+
 # Build settings
 theme: jekyll-theme-yat
 plugins:
