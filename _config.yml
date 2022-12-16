@@ -46,7 +46,7 @@ defaults:
     banner: "assets/home/home-banner-die-shot.jpg" # this isn't used, overriden with banner.image
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+header_transparent: false
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -74,8 +74,8 @@ banner:
 # You can choose a theme color
 # Default theme colors as below:
 coolblack: #090a0b
-# spacegrey: #353535
-# snowwhite: #ffffff
+spacegrey: #353535
+snowwhite: #ffffff
 
 theme_color: coolblack
 #
