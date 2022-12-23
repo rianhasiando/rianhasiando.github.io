@@ -3,15 +3,15 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/yat.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/yat/_base.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/yat/_layout.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/yat/_dark.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/misc/theme-toggle.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/misc/article-menu.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/misc/common-list.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/misc/google-translate.scss",
-		"../../.gem/ruby/3.1.3/gems/jekyll-theme-yat-1.8.0/_sass/misc/gitment.scss"
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/yat.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/yat/_base.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/yat/_layout.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/yat/_dark.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/misc/theme-toggle.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/misc/article-menu.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/misc/common-list.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/misc/google-translate.scss",
+		"C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-theme-yat-1.8.0/_sass/misc/gitment.scss"
 	],
 	"sourcesContent": [
 		"// Default theme colors\n$theme-colors: (\n  \"coolblack\": #090a0b,\n  \"spacegrey\": #353535,\n  \"snowwhite\": #ffffff,\n);\n\n// Default brand colors\n$brand-colors: (\n  \"orangered\": #ff5100,\n  \"greatgold\": #f2cb05,\n  \"greenblue\": #389092,\n);\n\n$theme-name: \"coolblack\";\n$brand-name: \"greenblue\";\n$theme-color: map-get($theme-colors, \"snowwhite\");\n$brand-color: map-get($brand-colors, \"orangered\");\n\n@if map-has-key($theme-colors, $theme-name) {\n  $theme-color: map-get($theme-colors, $theme-name);\n} @else if str-index($theme-name, \"#\") == 1 {\n  $theme-color: coolblack;\n}\n\n@if map-has-key($brand-colors, $brand-name) {\n  $brand-color: map-get($brand-colors, $brand-name);\n} @else if str-index($brand-name, \"#\") == 1 {\n  $brand-color: greenblue;\n}\n\n@import \"yat\";\n",
